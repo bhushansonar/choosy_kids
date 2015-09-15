@@ -1,0 +1,57 @@
+.contain_right {
+    float: right;
+    margin: 30px;
+    width: 780px;
+}
+.h_line1 {
+    border-bottom: 1px solid #FF0000;}
+.heading {
+    background: url("../images/contain_heading_bg.jpg") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+}
+
+.gallery_box {
+    background-color: #FFFFFF;
+    border: 1px solid #D1CCCC;
+    color: #1B1B1B;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 20px 0;
+}
+.gallery_line {
+    margin: 0;
+    padding: 0;
+}
+
+.image_box2 {
+    background-color: #FFFFFF;
+    border: 1px solid #F1ABA7;
+    color: #1B1B1B;
+    float: left;
+    font-size: 12px;
+    height: 300px;
+    margin: 0 30px 30px 0;
+    padding: 0 0 10px;
+    width: 200px;
+}
+.ToolText {
+    position: relative;
+}
+.name_text {
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+}
+element.style {
+    margin-bottom: 10px;
+    margin-left: 95px;
+    margin-top: 5px;}
+
+a {
+    text-decoration: none;
+}

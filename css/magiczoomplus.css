@@ -1,0 +1,236 @@
+﻿/*
+
+
+   Magic Zoom Plus v2.0.16 
+   Copyright 2011 Magic Toolbox
+   Buy a license: www.magictoolbox.com/magiczoomplus/
+   License agreement: http://www.magictoolbox.com/license/
+
+
+*/
+/*
+.product-image-zoom img {width:558px!important; height:480px; left: 0px; top:0px; overflow: hidden;}
+.MagicZoomPlus img {width:558px!important; height:480px; left: 0px; top:0px; overflow: hidden;}
+*/
+.MagicZoom img {
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+/* Style of zoomed window */
+.MagicZoomBigImageCont {
+/*border: 1px solid #999;*/
+}
+
+/* Style of header, activated with "title" attribute in <a> tag */
+.MagicZoomHeader {
+font-size: 8pt !important;
+line-height: normal !important;
+color: #fff;
+background: #666;
+text-align: center !important;
+}
+
+/* Style of small square under mouse */
+.MagicZoomPup {
+border: 1px solid #aaa;
+background: #fff;
+cursor: se-resize;
+}
+
+/* Style of message box while image is loading */
+.MagicZoomLoading {
+
+background: #fff url(../images/loader.gif) no-repeat 2px 50%;
+padding: 4px 4px 4px 24px !important;
+margin: 0;
+text-decoration: none;
+text-align: left;
+font-size: 8pt;
+font-family: sans-serif;
+color: #444;
+}
+/* Style of the small image link */
+
+.MagicZoomPlus, .MagicZoomPlus:hover {
+cursor: url(../images/zoomin.cur), pointer;
+}
+.MagicZoomPup {
+cursor:url(../images/zoomin.cur), se-resize;
+}
+.MagicThumb-expanded {
+cursor: url(../images/zoomout.cur), pointer;
+}
+/* Style of the small image */
+.MagicZoomPlus img { /*
+border-bottom: 1px solid #ccc!important;
+padding: 0 !important;
+margin: 0 !important;
+width: 558px!important;
+height: 480px!important;
+*/
+}
+
+/* Style of the span inside the small image link */
+.MagicZoomPlus span {
+display: none !important; 
+}
+
+
+/* Style of hotspots */
+.MagicHotspots {
+display: none;
+visibility: hidden;
+}
+.MagicHotspots a {
+border: 1px solid #ccc;
+}
+.MagicHotspots a:hover {
+border: 1px solid red;
+}
+
+/* Style of the small image link */
+.MagicThumb, .MagicThumb:hover {
+cursor: url(../images/zoomin.cur), pointer;
+outline: 0 !important;
+}
+
+/* Style of the small image when the large image is expanded */ 
+.MagicThumb-expanded-thumbnail {
+cursor: default;
+}
+
+/* Style of the span inside the small image link */
+.MagicThumb span {
+display: none !important;
+}
+
+/* Style of the small image */
+.MagicThumb img {
+border: 0;
+outline: 0;
+}
+
+/* Style of the expanded image */
+.MagicThumb-expanded {
+cursor: url(../images/zoomout.cur), pointer;
+background: transparent;
+border: 1px solid #ccc;
+outline: 0;
+padding: 0;
+}
+
+/* Style of the caption for the expanded image */
+.MagicThumb-caption {
+color: #333;
+font: normal 10pt Verdana, Helvetica;
+background: #ccc;
+text-align: left;
+padding: 8px;
+border: 0 !important;
+outline: 0 !important;
+}
+
+/* Style of the close/next/previous buttons */
+.MagicThumb-buttons {
+background: transparent url(../images/buttons1.png) no-repeat 0 0;
+height: 24px;
+display: block;
+}
+
+.MagicThumb-buttons a {
+width: 24px;
+height: 24px;
+margin: 0px 1px !important;
+overflow: hidden;
+}
+
+/* Style of the loading message box */
+.MagicThumb-loader {
+font: normal 12pt sans-serif;
+border: 1px solid #000;
+background: #fff url(../images/loader.gif) no-repeat 2px 50%;
+padding: 2px 2px 2px 22px;
+margin: 0;
+text-decoration: none;
+text-align: left;
+}
+
+/* Style of the small images which swap the main image */
+.MagicThumb-swap {
+}
+
+/* Style to hide caption on page. Only needed for #id method. */
+.MagicThumb-external-caption {
+display: none;
+}
+
+
+
+img{border:none;}
+
+#product-image {
+    
+    height: 342px;
+    margin-top: 0;
+    
+    position: relative;
+    width: 346px;
+}
+.product-view {width: 983px!important; margin: auto; padding-top: 0px;}
+.product-view .product-img-box .product-image {
+    border: 0px;
+}
+
+.price-inline {display:inline;}
+
+#slide-loader {display:none}
+
+
+
+.zoom-add-bag { float: right; display: inline; width: 340px; padding: 25px;}
+.zoom-add-btn {float: right; display: inline-block}
+.product-options {
+    background:none!important;
+    border:none!important;
+    margin: 0 0;
+    padding:0!important;  
+}
+
+
+.tabbed-images li {list-style:none;float:left;margin:0;	padding:0;}
+     
+.tabbed-images li a {display:block;float:left;margin:0 2px 0 0;}
+.tabbed-images li a img {border:none;padding:5px 0 0 11px;}
+        
+
+
+     
+       
+.zoom-gallery {
+          
+    float: left;
+        overflow:hidden;  
+    /*position: relative;*/
+    width: 346px;
+        
+    } 
+.tabbed-images {
+    height: 126px;
+	overflow: hidden;
+    padding: 20px 0px;
+    width: 346px;
+}
+
+
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { 
+	margin:0; 
+	padding:0; 
+}
+
+
+div {
+	/*position:relative;*/
+}

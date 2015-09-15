@@ -1,0 +1,233 @@
+/* ipad portrait */
+@media only screen and ( min-width: 640px) and ( max-width: 640px ) {
+	body {
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	max-width:100%;
+	background:#e5e5e5;
+}
+img {
+	max-width:100%;
+	height:auto;
+	max-height:100%;
+	display:block;
+}
+
+
+.main_wrapper {
+	width:100%;
+}
+
+.top_line {
+	width:100%;
+}
+
+.main_header {
+	width:100%;
+}
+
+.main_header_inner {
+	width:100%;
+}
+
+.main_menu {
+	width:100%;
+}
+
+.menu_inner {
+	width:100%;
+}
+
+.menu {
+	width:100%;
+}
+
+.banner {
+	width:100%;
+	min-height:1px;
+}
+
+.slider {
+	width:100%;
+}
+
+.shadow {
+	width:100%;
+}
+
+.middle_part {
+	width:100%;
+}
+
+.middle {
+	width:100%;
+}
+
+.content {
+	width:100%;
+}
+
+.bottom_part {
+	width:100%;
+}
+
+.bottom_inner {
+	width:100%;
+}
+
+.video {
+	width:100%;
+}
+.video_inner {
+	width:100%;
+}
+
+.register {
+	width:100%;
+}
+
+.register_inner {
+	width:100%;
+}
+
+.capcha_button {
+	width:100%;
+}
+
+.footer_part {
+	width:100%;
+}
+
+.footer_inner {
+	width:100%;
+}
+
+.footer_menu {
+	width:100%;
+}
+
+.copyright {
+	width:100%;
+}
+
+
+/*iphone portrait */
+	@media only screen and ( min-width:240px) ( max-width:240px) {
+			body {
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	max-width:100%;
+	background:#e5e5e5;
+}
+img {
+	max-width:100%;
+	height:auto;
+	max-height:100%;
+	display:block;
+}
+
+
+.main_wrapper {
+	width:100%;
+}
+
+.top_line {
+	width:100%;
+}
+
+.main_header {
+	width:100%;
+}
+
+.main_header_inner {
+	width:100%;
+}
+
+.main_menu {
+	width:100%;
+}
+
+.menu_inner {
+	width:100%;
+}
+
+.menu {
+	width:100%;
+}
+
+.banner {
+	width:100%;
+	min-height:1px;
+}
+
+.slider {
+	width:100%;
+}
+
+.shadow {
+	width:100%;
+}
+
+.middle_part {
+	width:100%;
+}
+
+.middle {
+	width:100%;
+}
+
+.content {
+	width:100%;
+}
+
+.bottom_part {
+	width:100%;
+}
+
+.bottom_inner {
+	width:100%;
+}
+
+.video {
+	width:100%;
+}
+.video_inner {
+	width:100%;
+}
+
+.register {
+	width:100%;
+}
+
+.register_inner {
+	width:100%;
+}
+
+.capcha_button {
+	width:100%;
+}
+
+.footer_part {
+	width:100%;
+}
+
+.footer_inner {
+	width:100%;
+}
+
+.footer_menu {
+	width:100%;
+}
+
+.copyright {
+	width:100%;
+}
+
+
+@media only screen and ( max-width: 1000px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi)  { 
